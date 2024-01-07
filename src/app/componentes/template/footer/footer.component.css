@@ -1,0 +1,16 @@
+.footer {
+
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.footer .font1{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10px;
+    
+}

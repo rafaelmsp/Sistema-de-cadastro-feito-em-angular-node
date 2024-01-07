@@ -1,0 +1,30 @@
+.container {
+
+display: flex;
+padding-left: 5px;
+padding-right: 5px;
+font-size: 14px;
+
+}
+.sidenav {
+    
+    background-color: rgb(58, 69, 218);
+    font-size: 15px;
+    width: 150px;
+
+}
+.sidenav a {
+    color: aliceblue;
+    font-size: 10px;
+}
+.sidenav i {
+    
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 20px;
+}
+
+.content {
+    padding: 16px;
+    background-color: #fff;
+}
