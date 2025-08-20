@@ -1,5 +1,113 @@
 
 ### Cadastro em Angular com Node.js
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Cadastro — Angular + Node.js</title>
+</head>
+<body>
+
+  <h1>🆔 Sistema de Cadastro</h1>
+  <p>
+    Este projeto é um <strong>sistema de cadastro de usuários</strong>, desenvolvido com 
+    <strong>Angular</strong> no frontend e <strong>Node.js</strong> no backend. 
+    Ele serve como exemplo prático de integração entre frontend e backend em uma aplicação full-stack.
+  </p>
+
+  <h2>🚀 Tecnologias Utilizadas</h2>
+  <ul>
+    <li><strong>Frontend:</strong> Angular, TypeScript, HTML, CSS</li>
+    <li><strong>Backend:</strong> Node.js + Express</li>
+    <li><strong>Banco de Dados (opcional):</strong> MongoDB ou MySQL</li>
+  </ul>
+
+  <h2>📦 Estrutura do Projeto</h2>
+  <pre>
+Sistema-de-cadastro/
+├── backend/    (Servidor Node.js com Express)
+├── frontend/   (Aplicação Angular)
+└── README.md   (Este arquivo)
+  </pre>
+
+  <h2>⚙️ Funcionalidades</h2>
+  <ul>
+    <li>Cadastro de usuários com nome, e-mail e senha</li>
+    <li>Listagem de usuários cadastrados</li>
+    <li>Atualização de dados de usuários</li>
+    <li>Exclusão de registros</li>
+    <li>Integração frontend ↔ backend via HTTP</li>
+  </ul>
+
+  <h2>🛠️ Como Rodar o Projeto</h2>
+
+  <h3>Pré-requisitos</h3>
+  <ul>
+    <li><a href="https://nodejs.org/">Node.js</a> instalado</li>
+    <li><a href="https://angular.io/cli">Angular CLI</a> instalado</li>
+    <li>Banco de dados configurado (se desejar persistir dados)</li>
+  </ul>
+
+  <h3>Passo a Passo</h3>
+  <ol>
+    <li><strong>Clonar o repositório</strong>:
+      <pre>git clone https://github.com/rafaelmsp/Sistema-de-cadastro-feito-em-angular-node.git
+cd Sistema-de-cadastro-feito-em-angular-node</pre>
+    </li>
+
+    <li><strong>Configurar e rodar o backend</strong>:
+      <pre>
+cd backend
+npm install
+node index.js
+      </pre>
+      O servidor rodará em <code>http://localhost:3000</code>.
+    </li>
+
+    <li><strong>Configurar e rodar o frontend</strong>:
+      <pre>
+cd frontend
+npm install
+ng serve
+      </pre>
+      A aplicação estará disponível em <code>http://localhost:4200</code>.
+    </li>
+  </ol>
+
+  <h2>📖 Exemplos de Rotas Backend</h2>
+  <ul>
+    <li><code>POST /usuarios</code> → cria um novo usuário</li>
+    <li><code>GET /usuarios</code> → lista todos os usuários</li>
+    <li><code>PUT /usuarios/:id</code> → atualiza usuário existente</li>
+    <li><code>DELETE /usuarios/:id</code> → remove usuário</li>
+  </ul>
+
+  <h2>🤝 Contribuição</h2>
+  <p>Para contribuir:</p>
+  <ol>
+    <li>Faça um fork deste repositório</li>
+    <li>Crie uma branch: <code>git checkout -b feature/nova-feature</code></li>
+    <li>Commit suas alterações: <code>git commit -m "Adiciona nova feature"</code></li>
+    <li>Envie para o seu fork: <code>git push origin feature/nova-feature</code></li>
+    <li>Abra um Pull Request</li>
+  </ol>
+
+  <h2>📄 Licença</h2>
+  <p>Projeto licenciado sob a licença <strong>MIT</strong>.</p>
+
+  <h2>👤 Autor</h2>
+  <p>
+    <strong>Rafael Moraes da Silva Passos</strong><br>
+    🔗 <a href="https://github.com/rafaelmsp">GitHub</a>
+  </p>
+
+</body>
+</html>
+
+
+
+
 ## Introdução
 Bem-vindo ao tutorial de criação de um sistema de cadastro utilizando Angular como framework frontend e Node.js como backend. Este guia passo a passo ajudará você a entender como construir uma aplicação completa, permitindo aos usuários se cadastrarem e armazenarem informações.
 
